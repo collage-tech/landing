@@ -10,27 +10,35 @@
   "index": {
     "en": {
       "headline": "Collage creates your <br>brand new AI-powered <br> look in one click",
-      "ctaButton": "Open App in Telegram"
+      "ctaButton": "Open App in Telegram",
+      "title": "Collage - AI-Powered Photo Collage",
+      "description": "Collage creates your brand new AI-powered look in one click. Transform your photos with AI-powered collage effects and filters. Available on Telegram."
     },
     "ru": {
       "headline": "Collage создаст ваш <br>новый AI-стиль <br>одним тапом",
-      "ctaButton": "Попробовать в Telegram"
+      "ctaButton": "Попробовать в Telegram",
+      "title": "Collage - AI-фото коллаж",
+      "description": "Collage создаст ваш новый AI-стиль одним тапом. Преобразуйте свои фотографии с помощью AI-эффектов и фильтров. Доступно в Telegram."
     }
   },
   "privacyPolicy": {
     "en": {
-      "title": "Privacy Policy"
+      "title": "Privacy Policy - Collage",
+      "description": "Privacy Policy for Collage - AI-powered photo collage application. Learn how we collect, use, and protect your personal information."
     },
     "ru": {
-      "title": "Политика конфиденциальности"
+      "title": "Политика конфиденциальности - Collage",
+      "description": "Политика конфиденциальности для Collage - приложение для создания AI-фото коллажей. Узнайте, как мы собираем, используем и защищаем вашу личную информацию."
     }
   },
   "termsOfUse": {
     "en": {
-      "title": "Terms of Use"
+      "title": "Terms of Use - Collage",
+      "description": "Terms of Use for Collage - AI-powered photo collage application. Read our terms and conditions for using our services."
     },
     "ru": {
-      "title": "Условия использования"
+      "title": "Условия использования - Collage",
+      "description": "Условия использования для Collage - приложение для создания AI-фото коллажей. Прочитайте наши условия использования наших услуг."
     }
   }
 }

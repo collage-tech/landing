@@ -97,6 +97,50 @@ class LocaleManager {
                 element.textContent = translation;
             }
         });
+
+        // Update title and description meta tags
+        this.updateMetaTags();
+    }
+
+    updateMetaTags() {
+        const title = this.getTranslation('title');
+        const description = this.getTranslation('description');
+
+        if (title) {
+            document.title = title;
+        }
+
+        if (description) {
+            // Update meta description
+            let metaDescription = document.querySelector('meta[name="description"]');
+            if (metaDescription) {
+                metaDescription.setAttribute('content', description);
+            }
+
+            // Update Open Graph description
+            let ogDescription = document.querySelector('meta[property="og:description"]');
+            if (ogDescription) {
+                ogDescription.setAttribute('content', description);
+            }
+
+            // Update Twitter description
+            let twitterDescription = document.querySelector('meta[name="twitter:description"]');
+            if (twitterDescription) {
+                twitterDescription.setAttribute('content', description);
+            }
+
+            // Update Open Graph title
+            let ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle && title) {
+                ogTitle.setAttribute('content', title);
+            }
+
+            // Update Twitter title
+            let twitterTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twitterTitle && title) {
+                twitterTitle.setAttribute('content', title);
+            }
+        }
     }
 
     setupLanguageSwitcher() {
