@@ -35,7 +35,7 @@ body {
 }
 
 .logo-img {
-    height: 2.5rem;
+    height: 1.8rem;
     width: auto;
     max-width: 100%;
     object-fit: contain;
@@ -88,6 +88,7 @@ body {
     box-shadow: 
         0.67px 0.67px 0 0 rgba(255, 255, 255, 0.2),
         -0.67px -0.67px 0 0 rgba(255, 255, 255, 0.2);
+    max-height: 48px;
 }
 
 .cta-button:hover {
@@ -103,8 +104,8 @@ body {
 }
 
 .button-icon {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     object-fit: contain;
 }
 
@@ -112,7 +113,7 @@ body {
 .main-image-container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto 4rem;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -400,10 +401,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 1rem 1rem;
+    padding: 3rem 1rem 1rem;
     font-size: 0.75rem;
     color: #888;
-    border-top: 1px solid #222;
     margin-top: auto;
     flex-wrap: wrap;
     gap: 1rem;
@@ -557,7 +557,7 @@ body {
     }
 
     .logo-img {
-        height: 2rem;
+        height: 1.2rem;
     }
 
     .policy-header {
@@ -597,6 +597,9 @@ body {
         padding: 0.875rem 2rem;
         font-size: 1rem;
         margin-bottom: 3rem;
+        max-height: 40px;
+        display: inline-flex;
+        align-items: center;
     }
 
     .phone-screens {
@@ -629,6 +632,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .logo-img {
+        height: 1rem;
+    }
+
     .headline {
         font-size: clamp(2rem, 7vw, 3.5rem);
         line-height: clamp(1.9rem, 6.5vw, 3.2rem);
@@ -690,10 +697,14 @@ body {
     .phone-screen {
         width: 160px;
     }
-
+    
     .headline {
         font-size: clamp(1.75rem, 6vw, 2.5rem);
         line-height: clamp(1.6rem, 5.5vw, 2.3rem);
         letter-spacing: -0.5px;
+    }
+
+    .headline br {
+        display: none;
     }
 }

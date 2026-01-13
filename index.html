@@ -27,7 +27,7 @@
     <link rel="canonical" href="https://top.co/">
     
     <title>Collage - AI-Powered Photo Collage</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -43,7 +43,7 @@
         <main class="main-content">
             <!-- Headline -->
             <h1 class="headline">
-                Collage creates your brand new AI-powered look in one click.
+                Collage creates your <br>brand new AI-powered <br> look in one click
             </h1>
 
             <!-- CTA Button -->
@@ -54,7 +54,10 @@
 
             <!-- Main Image -->
             <div class="main-image-container">
-                <img src="images/hero-image.png" alt="Collage Preview" class="main-image">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="images/hero-image-mobile.png">
+                    <img src="images/hero-image.png" alt="Collage Preview" class="main-image">
+                </picture>
             </div>
         </main>
 
