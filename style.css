@@ -54,11 +54,11 @@ body {
 .headline {
     text-align: center;
     font-family: "SF Pro", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-    font-size: clamp(2.5rem, 5vw, 86px);
+    font-size: clamp(3.5rem, 5.5vw, 86px);
     font-style: normal;
     font-weight: 650;
     font-stretch: condensed;
-    line-height: clamp(2.3rem, 4.65vw, 80px);
+    line-height: clamp(3.2rem, 5.1vw, 80px);
     letter-spacing: -1px;
     margin-bottom: 3rem;
     background: linear-gradient(to bottom, #C299FF, #ECB9FF, #FFE7DF, #FFF6D9, #FDFFD2);
@@ -588,8 +588,8 @@ body {
 
     .headline {
         margin-bottom: 2rem;
-        font-size: clamp(2.5rem, 8vw, 4.5rem);
-        line-height: clamp(2.3rem, 7.5vw, 4.2rem);
+        font-size: clamp(3rem, 5.5vw, 5.5rem);
+        line-height: clamp(2.8rem, 5.1vw, 5.1rem);
         letter-spacing: -0.5px;
     }
 
