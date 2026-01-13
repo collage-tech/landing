@@ -39,7 +39,7 @@
         <!-- Main Content -->
         <main class="policy-content">
             <!-- Page Title -->
-            <h1 class="policy-title">
+            <h1 class="policy-title" data-i18n="title">
                 Privacy Policy
             </h1>
 
@@ -139,13 +139,29 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="footer-left">
-                <span>© 2025 All rights reserved.</span>
+                <span data-i18n="footerCopyright">© 2025 All rights reserved.</span>
             </div>
-            <!-- <div class="footer-right">
-                <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
-                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
-            </div> -->
+            <div class="footer-right">
+                <div class="language-switcher" id="language-switcher">
+                    <button class="lang-switcher-btn">
+                        <span class="current-flag">🇬🇧</span>
+                        <span class="current-lang">EN</span>
+                        <span class="lang-arrow">▼</span>
+                    </button>
+                    <div class="lang-dropdown">
+                        <div class="lang-option" data-locale="en">
+                            <span class="lang-flag">🇬🇧</span>
+                            <span class="lang-code">English</span>
+                        </div>
+                        <div class="lang-option" data-locale="ru">
+                            <span class="lang-flag">🇷🇺</span>
+                            <span class="lang-code">Русский</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
+    <script src="locale.js"></script>
 </body>
 </html>

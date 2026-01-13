@@ -42,14 +42,14 @@
         <!-- Main Content -->
         <main class="main-content">
             <!-- Headline -->
-            <h1 class="headline">
+            <h1 class="headline" data-i18n="headline" data-i18n-html>
                 Collage creates your <br>brand new AI-powered <br> look in one click
             </h1>
 
             <!-- CTA Button -->
             <a href="https://t.me/collage" class="cta-button" target="_blank" rel="noopener noreferrer">
                 <img src="images/button-telegram-icon.png" alt="Telegram" class="button-icon">
-                <span class="button-text">Open App in Telegram</span>
+                <span class="button-text" data-i18n="ctaButton">Open App in Telegram</span>
             </a>
 
             <!-- Main Image -->
@@ -64,15 +64,31 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="footer-left">
-                <span>© 2026 All rights reserved.</span>
+                <span data-i18n="footerCopyright">© 2026 All rights reserved.</span>
             </div>
-            <!-- <div class="footer-right">
-                <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
-                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
-            </div> -->
+            <div class="footer-right">
+                <div class="language-switcher" id="language-switcher">
+                    <button class="lang-switcher-btn">
+                        <span class="current-flag">🇬🇧</span>
+                        <span class="current-lang">EN</span>
+                        <span class="lang-arrow">▼</span>
+                    </button>
+                    <div class="lang-dropdown">
+                        <div class="lang-option" data-locale="en">
+                            <span class="lang-flag">🇬🇧</span>
+                            <span class="lang-code">English</span>
+                        </div>
+                        <div class="lang-option" data-locale="ru">
+                            <span class="lang-flag">🇷🇺</span>
+                            <span class="lang-code">Русский</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 
+    <script src="locale.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

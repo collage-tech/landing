@@ -1,0 +1,36 @@
+{
+  "common": {
+    "en": {
+      "footerCopyright": "© 2026 All rights reserved."
+    },
+    "ru": {
+      "footerCopyright": "© 2026 Все права защищены."
+    }
+  },
+  "index": {
+    "en": {
+      "headline": "Collage creates your <br>brand new AI-powered <br> look in one click",
+      "ctaButton": "Open App in Telegram"
+    },
+    "ru": {
+      "headline": "Collage создаст ваш <br>новый AI-стиль <br>одним тапом",
+      "ctaButton": "Попробовать в Telegram"
+    }
+  },
+  "privacyPolicy": {
+    "en": {
+      "title": "Privacy Policy"
+    },
+    "ru": {
+      "title": "Политика конфиденциальности"
+    }
+  },
+  "termsOfUse": {
+    "en": {
+      "title": "Terms of Use"
+    },
+    "ru": {
+      "title": "Условия использования"
+    }
+  }
+}
