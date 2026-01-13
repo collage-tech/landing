@@ -439,7 +439,7 @@ body {
 .lang-switcher-btn {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 8px;
+    border-radius: 25px;
     padding: 0.5rem 0.75rem;
     color: #888;
     font-size: 0.75rem;
@@ -740,71 +740,16 @@ body {
     }
 
     .headline {
-        font-size: clamp(2rem, 7vw, 3.5rem);
-        line-height: clamp(1.9rem, 6.5vw, 3.2rem);
+        font-size: clamp(2.4rem, 8vw, 4.2rem);
+        line-height: clamp(2.2rem, 7.5vw, 3.9rem);
         letter-spacing: -0.5px;
     }
-
-    .policy-title {
-        font-size: 1.75rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .policy-sections {
-        gap: 1.5rem;
-    }
-
-    .section-title {
-        font-size: 1.1rem;
-    }
-
-    .subsection-title {
-        font-size: 1rem;
-    }
-
-    .section-text,
-    .section-list li {
-        font-size: 0.9rem;
-    }
-
-    .section-list {
-        margin-left: 1.25rem;
-    }
-
-    .phone-screen {
-        width: 180px;
-    }
-
-    .phone-content {
-        min-height: 400px;
-    }
-
-    .phone-content-middle {
-        min-height: 450px;
-    }
-
-    .phone-content-right {
-        min-height: 450px;
-    }
-
-    .tabs {
-        font-size: 0.7rem;
-    }
-
-    .tab {
-        padding: 0.4rem 0.75rem;
-    }
 }
+
 
 @media (max-width: 360px) {
     .phone-screen {
         width: 160px;
-    }
-    
-    .headline {
-        font-size: clamp(1.75rem, 6vw, 2.5rem);
-        line-height: clamp(1.6rem, 5.5vw, 2.3rem);
-        letter-spacing: -0.5px;
     }
 
     .headline br {
