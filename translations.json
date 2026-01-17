@@ -9,16 +9,16 @@
   },
   "index": {
     "en": {
-      "headline": "Turning your photos into AI looks.<br>Creator-made styles. No prompts. One click.",
+      "headline": "AI looks from your photos<br>Creator-made styles. No&nbsp;prompts. One&nbsp;click.",
       "ctaButton": "Open App in Telegram",
-      "title": "Turning your photos into AI looks.",
-      "description": "Creator-made styles. No prompts. One click. Available on Telegram."
+      "title": "AI looks from your photos",
+      "description": "Creator-made styles. No&nbsp;prompts. One&nbsp;click. Available on Telegram."
     },
     "ru": {
-      "headline": "Превращаем ваши фото в AI-образы. <br> Стили от&nbspкреаторов. Без&nbspпромптов. В&nbspодин клик.",
+      "headline": "Создаём AI-образы из ваших фото. <br> Стили от&nbspкреаторов. Без&nbspпромптов. Мгновенно.",
       "ctaButton": "Открыть в Telegram",
-      "title": "Превращаем ваши фото в AI-образы",
-      "description": "Стили от креаторов. Без промптов. В один клик. Доступно в Telegram."
+      "title": "Создаём AI-образы из ваших фото",
+      "description": "Стили от креаторов · Без промптов · Мгновенно · Доступно в Telegram."
     }
   },
   "privacyPolicy": {
