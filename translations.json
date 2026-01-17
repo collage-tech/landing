@@ -23,21 +23,21 @@
   },
   "privacyPolicy": {
     "en": {
-      "title": "Privacy Policy - Collage",
+      "title": "Privacy Policy",
       "description": "Privacy Policy for Collage - AI-powered photo collage application. Learn how we collect, use, and protect your personal information."
     },
     "ru": {
-      "title": "Политика конфиденциальности - Collage",
+      "title": "Политика конфиденциальности",
       "description": "Политика конфиденциальности для Collage - приложение для создания AI-фото коллажей. Узнайте, как мы собираем, используем и защищаем вашу личную информацию."
     }
   },
   "termsOfUse": {
     "en": {
-      "title": "Terms of Use - Collage",
+      "title": "Terms of Use",
       "description": "Terms of Use for Collage - AI-powered photo collage application. Read our terms and conditions for using our services."
     },
     "ru": {
-      "title": "Условия использования - Collage",
+      "title": "Условия использования",
       "description": "Условия использования для Collage - приложение для создания AI-фото коллажей. Прочитайте наши условия использования наших услуг."
     }
   }
