@@ -31,14 +31,14 @@
       "description": "Политика конфиденциальности для Collage - приложение для создания AI-фото коллажей. Узнайте, как мы собираем, используем и защищаем вашу личную информацию."
     }
   },
-  "termsOfUse": {
+  "termsOfService": {
     "en": {
-      "title": "Terms of Use",
-      "description": "Terms of Use for Collage - AI-powered photo collage application. Read our terms and conditions for using our services."
+      "title": "Terms of Service",
+      "description": "Terms of Service for Collage - AI-powered photo collage application. Read our terms and conditions for using our services."
     },
     "ru": {
-      "title": "Условия использования",
-      "description": "Условия использования для Collage - приложение для создания AI-фото коллажей. Прочитайте наши условия использования наших услуг."
+      "title": "Условия обслуживания",
+      "description": "Условия обслуживания для Collage - приложение для создания AI-фото коллажей. Прочитайте наши условия использования наших услуг."
     }
   }
 }

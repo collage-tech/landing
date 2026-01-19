@@ -30,7 +30,7 @@ class LocaleManager {
     detectPageType() {
         const path = window.location.pathname;
         if (path.includes('privacy-policy')) return 'privacyPolicy';
-        if (path.includes('terms-of-use')) return 'termsOfUse';
+        if (path.includes('terms-of-service')) return 'termsOfService';
         return 'index';
     }
 
