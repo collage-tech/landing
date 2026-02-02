@@ -35,12 +35,10 @@
   },
   "common": {
     "en": {
-      "footerCopyright": "© 2026 All rights reserved.",
-      "footerSocial": "Follow us"
+      "footerCopyright": "© 2026 All rights reserved."
     },
     "ru": {
-      "footerCopyright": "© 2026 Все права защищены.",
-      "footerSocial": "Мы в соц. сетях"
+      "footerCopyright": "© 2026 Все права защищены."
     }
   }
 }
