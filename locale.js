@@ -8,12 +8,13 @@ class LocaleManager {
     }
 
     async init() {
-        document.documentElement.lang = this.currentLocale;
+        this.applyLocaleToDocument();
         
         try {
             await this.loadTranslations();
             this.applyTranslations();
             this.setupLanguageSwitcher();
+            this.updateSocialLinks();
         } catch (error) {
             console.error('Failed to load translations:', error);
         }
@@ -52,14 +53,19 @@ class LocaleManager {
         return locale === 'en' || locale === 'ru';
     }
 
+    applyLocaleToDocument() {
+        document.documentElement.setAttribute('lang', this.currentLocale);
+    }
+
     async setLocale(locale) {
         if (!this.isLocaleSupported(locale)) return;
         
         this.currentLocale = locale;
         localStorage.setItem('preferredLocale', locale);
-        document.documentElement.lang = locale;
+        this.applyLocaleToDocument();
         this.applyTranslations();
         this.updateLanguageSwitcher();
+        this.updateSocialLinks();
     }
 
     getTranslation(key) {
@@ -193,6 +199,15 @@ class LocaleManager {
         }
         if (currentFlag) {
             currentFlag.textContent = this.currentLocale === 'ru' ? '🇷🇺' : '🇬🇧';
+        }
+    }
+
+    updateSocialLinks() {
+        const telegramLink = document.getElementById('footer-telegram-link');
+        if (telegramLink) {
+            telegramLink.href = this.currentLocale === 'ru'
+                ? 'https://t.me/collage_ru'
+                : 'https://t.me/collage_global';
         }
     }
 }

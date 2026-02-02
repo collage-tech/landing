@@ -418,6 +418,51 @@ body {
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.footer-social-label {
+    color: #888;
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s;
+    color: #888;
+}
+
+.footer-social-link:hover {
+    opacity: 0.8;
+}
+
+.footer-social-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+.footer-social-link svg.footer-social-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.footer-social-en-only {
+    display: none;
+}
+
+/* Показываем Instagram и X только для английской версии (lang выставляется в locale.js) */
+html[lang="en"] .footer-social-en-only {
+    display: inline-flex !important;
 }
 
 .footer-link {

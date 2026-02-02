@@ -1,12 +1,4 @@
 {
-  "common": {
-    "en": {
-      "footerCopyright": "© 2026 All rights reserved."
-    },
-    "ru": {
-      "footerCopyright": "© 2026 Все права защищены."
-    }
-  },
   "index": {
     "en": {
       "headline": "AI&nbsp;looks from your photos in&nbsp;one tap.",
@@ -39,6 +31,16 @@
     "ru": {
       "title": "Условия обслуживания",
       "description": "Условия обслуживания для Collage - приложение для создания AI-фото коллажей. Прочитайте наши условия использования наших услуг."
+    }
+  },
+  "common": {
+    "en": {
+      "footerCopyright": "© 2026 All rights reserved.",
+      "footerSocial": "Follow us"
+    },
+    "ru": {
+      "footerCopyright": "© 2026 Все права защищены.",
+      "footerSocial": "Мы в соц. сетях"
     }
   }
 }
